@@ -35,5 +35,7 @@ def generate_pairs(teams: List[Team]) -> List[Tuple[str, str]]:
             if possible_opponents:
                 team2 = possible_opponents[0]
                 pairs.append((team1.name, team2.name))
+                if team2 in teams_2nd_place:
+                    teams_2nd_place.remove(team2)
 
     return pairs
