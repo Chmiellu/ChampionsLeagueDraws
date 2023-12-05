@@ -11,7 +11,7 @@ Endpoints
 
 Feel free to explore and integrate this application into your workflow for Champions League draws!
 
-# DrawProcedure
+## DrawProcedure
 - Two seeding pots will be formed: one consisting of group winners and the other of runners-up.
 - No team can play a club from their group or any side from their own association.
 - Seeded group winners will be away in the round of 16 first legs and at home in the return matches.
